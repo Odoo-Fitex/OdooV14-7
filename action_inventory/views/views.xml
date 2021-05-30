@@ -24,7 +24,7 @@
         </field>
     </record>
   
-  <record id="view_stock_picking_rollnumber2" model="ir.ui.view">
+<!--   <record id="view_stock_picking_rollnumber2" model="ir.ui.view">
         <field name="name">view.stock.picking.rollnumber</field>
         <field name="model">stock.inventory.line</field>
         <field name="inherit_id" ref="stock.stock_inventory_line_tree2"/>
@@ -33,7 +33,7 @@
                  <field name="roll_number2"/>
         </xpath>
         </field>
-    </record>
+    </record> -->
 
   <record id="view_stock_quant_rollnumber3" model="ir.ui.view">
         <field name="name">view.stock.quant.rollnumber</field>
