@@ -133,7 +133,7 @@
         </field>
     </record>
     
-       <record id="view_mrp_manufacturing_order_stitch_length" model="ir.ui.view">
+<!--        <record id="view_mrp_manufacturing_order_stitch_length" model="ir.ui.view">
         <field name="name">view.mrp_production.stitch.length</field>
         <field name="model">stock.move</field>
         <field name="inherit_id" ref="mrp.view_stock_move_raw_tree"/>
@@ -144,7 +144,7 @@
                      <field name="MeterPerRev"/>
                 </xpath>
         </field>
-    </record>
+    </record> -->
     
       <record id="view_mrp_workcenter_needles" model="ir.ui.view">
         <field name="name">view.mrp.workcenter.needles.</field>
