@@ -4,7 +4,7 @@
         <field name="name">view.mrp_production.form</field>
         <field name="model">mrp.production</field>
         <field name="inherit_id" ref="mrp.mrp_production_form_view"/>
-        <field name="arch" type="xml">   
+        <field name="arch" type="xml">    
         	<xpath expr="//group[2]" position="before"> 
                   <group name="specifications" string="Specifications">
                           <field name="weight" string="M^2_Weight"/>
