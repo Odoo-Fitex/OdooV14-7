@@ -12,7 +12,7 @@
                           <field name="gouge" string="Gouge"/> 
                           <field name="inch" string="Inch"/>
                           <field name="barcode" string="Barcode"/>
-                          <field name="workcenter_number"/>
+<!--                           <field name="workcenter_number"/> -->
                   </group>
             
                   <group name="quantity" string="Quantity">
