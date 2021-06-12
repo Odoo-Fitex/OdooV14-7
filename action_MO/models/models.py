@@ -16,7 +16,7 @@ class action_SO_line(models.Model):
                       store=True,
                       readonly=True,       
                       related='finished_move_line_ids.lot_id')
-    workcenter_number = fields.Many2one('mrp.workcenter',string="Workcenter Number")
+#     workcenter_number = fields.Many2one('mrp.workcenter',string="Workcenter Number")
     remaining_qty = fields.Float(string="Remaining Quantity To Produce", compute="_compute_the_produced_quantity")
     total_qty_done = fields.Float(string="Quantity Partially Produced", compute="_compute_the_produced_quantity")
     actual_order_qty = fields.Float(string="Actual Quantity")
