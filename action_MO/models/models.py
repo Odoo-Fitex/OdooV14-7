@@ -7,7 +7,7 @@ class action_SO_line(models.Model):
  
     inch = fields.Char(string="Inch")
     weight = fields.Char(string="m^2_Weight")
-    gouge = fields.Integer(string="Gouge")
+    gouge = fields.Integer(string="Gouge") 
     width = fields.Char(string="Width") 
     barcode = fields.Char(string='Barcode',
                           store=True,
