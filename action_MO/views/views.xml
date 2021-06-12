@@ -157,7 +157,7 @@
         </field>
     </record>
     
-     <record id="view_mrp_manufacturing_order_form_stitch_length" model="ir.ui.view">
+<!--      <record id="view_mrp_manufacturing_order_form_stitch_length" model="ir.ui.view">
         <field name="name">view.mrp_production.form.stitch.length</field>
         <field name="model">stock.move</field>
         <field name="inherit_id" ref="mrp.view_stock_move_lots"/>
@@ -167,7 +167,7 @@
 
                 </xpath>
         </field>
-    </record>
+    </record> -->
 
      <record id="view_mrp_manufacturing_order_fields" model="ir.ui.view">
         <field name="name">view.mrp_production.fields</field>
